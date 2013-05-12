@@ -1,11 +1,8 @@
-Ruby Tests
+The curious incident of the dog in the night-time
 ===
 
-A quick way to get up and running with tests.
+This is a module to assert if the book is correct... Names with prime numbers. And maybe more?
 
-Bundle via the gemfile to get:
+See tests for examples to work with.
 
-* [Shoulda-Matches](https://github.com/thoughtbot/shoulda-matchers) (an improvement on default rspec syntax)
-* [rspec](https://github.com/rspec/rspec) for running tests
-* [guard](https://github.com/guard/) to watch directories.
-* [guard-rspec](https://github.com/guard/guard-rspec) to watch directories.
+This is still work in progress!
