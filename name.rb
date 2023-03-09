@@ -5,7 +5,7 @@ class Name
     @full_name = full_name
   end
 
-  def name_to_a
+  def split_name
     @full_name.scan /./
   end
 
@@ -17,6 +17,8 @@ class Name
   end
 
   def score
-    score_name(name_to_a)
+    array = split_name()
+    score_name(array)
   end
 end
+
