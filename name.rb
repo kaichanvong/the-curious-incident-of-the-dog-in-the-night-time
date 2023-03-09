@@ -1,4 +1,7 @@
-LETTERTOSCOREMAP = ('a'...'z').to_a
+
+module LETTERS
+	SCORE_MAP = ('a'...'z').to_a
+end
 
 class Name
   def initialize(full_name)
@@ -11,7 +14,7 @@ class Name
 
   def score_name array_of_letters
     letter_scores = array_of_letters.map do
-      |l| LETTERTOSCOREMAP.index(l) + 1
+      |l| LETTERS::SCORE_MAP.index(l) + 1
     end
     letter_scores.inject(:+)
   end
